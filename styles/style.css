@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&family=Work+Sans:wght@700&display=swap');
+
+:root {
+    --primary-color: #FF900E;
+    --header-bg: rgba(255, 144, 14, 0.1);
+    --title-color: #131313;
+    --desc-color: #727272;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Work Sans";
+}
+
+header {
+    background: var(--header-bg);
+}
+
+/* ------------ */
+/* nav style */
+/* ---------- */
+
+nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav h3 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+/* ---------------- */
+/* brand style */
+/* ---------------- */
+.brand-info {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.brand-detail {
+
+    width: 862px;
+    height: 225px;
+}
+
+.brand-detail h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--title-color);
+    margin-bottom: 30px;
+}
+
+
+.desc-style {
+    color: var(--desc-color);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.btn {
+    padding: 21px 25px;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: var(--primary-color);
+}
+
+.explore-primary-btn {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+
+/* ------------- */
+/* banner style */
+/* ------------- */
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.banner-img {
+    /* width: 1440px; */
+    /* height: 700px; */
+    border-radius: 8px;
+    padding-bottom: 45px;
+}
+
+
+
+
+/* ------------------ */
+/* features styles */
+/* ------------------- */
+
+/* mother */
+.features-container {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    width: 80%;
+    /* border: 1px solid red; */
+    display: flex;
+    /* padding:107px 301px ; */
+}
+
+.feature-imges {
+    /* border: 1px solid blue; */
+    /* width: 50%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+
+}
+
+.features-images img {
+    width: 342px;
+    height: 342px;
+
+}
+
+.features-info {
+    /* border: 1px solid gray; */
+    /* width: 50%; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.feature-detail {
+    /* width: 537px;
+    height: 304px; */
+    padding-left: 73px;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 24px;
+}
+
+.of-our {
+    color: #131313;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+/* ------------------------- */
+/* features you enjoy style */
+/* -------------------------- */
+
+.features-you-container {
+    margin-top: 130px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.features-you-enjoy {
+    width: 1440px;
+    display: flex;
+    gap: 164px;
+}
+
+
+/* 1 */
+.feature-enjoy-detail {
+    /* border: 1px solid yellow; */
+    width: 586px;
+    height: 982px;
+}
+
+.feature-title-continer {
+    display: flex;
+    gap: 21px;
+}
+
+.line {
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+}
+
+.feature-title-continer>.title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.feater-enjoy-info {
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    /* height: 100%; */
+
+}
+
+.feature-enjoy {
+
+    padding: 30px 42px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+/* ellips */
+
+.min-max {
+    width: 500px;
+    overflow: hidden;
+}
+
+.ellips {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+/* 2 */
+.feature-img {
+   
+}
+
+.feature-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.experience {
+    position: absolute;
+    top: 3104px;
+    width: 342px;
+    height: 198px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 750px;
+
+}
+
+.experience-info>h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.experience-info>p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+
+
+
+/* --------------- */
+/* some facts section style*/
+/* --------------- */
+
+.facts-header {
+    /* border: 1px solid red; */
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.some-facts {
+    /* border: 1px solid red; */
+    width: 80%;
+}
+
+.some-facts>h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--title-color);
+    margin-bottom: 24px;
+}
+
+/* facts-points-container style */
+.facts-points-container {
+    display: flex;
+    justify-content: center;
+}
+
+.fact-points {
+    margin-top: 100px;
+    /* border: 1px solid red; */
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fact-point {
+
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.point {
+    /* border: 1px solid #FF900E; */
+    text-align: center;
+    width: 169px;
+    height: 136.22px;
+    /* transformation */
+    transition: transform, 1s linear;
+}
+
+.point:hover {
+    transform: scale(1.7);
+}
+
+.point>img {
+    width: 20%;
+}
+
+.point>h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.point>p {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--desc-color);
+}
+
+/* ------------------ */
+/* top architects style */
+/* ------------------ */
+
+.top-architects-container {
+    margin-top: 180px;
+}
+
+.top-architects-container>h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.top-architects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.top-architects img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ------------------ */
+/* sponsors style */
+/* ------------------ */
+.sponsors-container {
+    margin-top: 180px;
+}
+
+.our-sponsors {
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors-info {
+    width: 35%;
+    text-align: center;
+}
+
+.sponsors-info>.title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.sponsors-logos {
+    margin-top: 80px;
+}
+
+.sponsors-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* footer style */
+footer {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.allrights-container {
+    max-width: 1440px;
+    width: 80%;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 216px;
+}
+
+
+
+/* responsive for mobile */
+@media only screen and (max-width:576px) {
+    nav>h3 {
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+
+    nav,
+    ul,
+    .features {
+        flex-direction: column;
+    }
+
+    .explore-primary-btn {
+        margin-top: 130px
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .feature-imges {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 30px;
+    }
+
+    /* features-you enjoy */
+    .features-you-enjoy {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    /* ellips */
+
+    .min-max {
+        width: 100px;
+        /* overflow: hidden; */
+    }
+
+
+
+
+    .feature-enjoy-detail {
+        width: 100%;
+    }
+
+    .experience {
+        position: static;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+    /* some facts */
+    .fact-points {
+        flex-direction: column;
+        gap: 40px
+    }
+
+
+    /* top architecturs */
+    .top-architects {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* sponsors-container */
+    .sponsors-container {
+        margin-top: 100px;
+    }
+
+    .sponsors-logo {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .sponsors-logo img {
+        width: 50%;
+    }
+
+
+}
